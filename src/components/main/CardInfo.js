@@ -17,7 +17,7 @@ export default function CardLeft() {
         className="md:w-96 relative "
       />
       <div className='md:hidden absolute bottom-0 left-16 flex'>
-      <p className=' bg-primary-light py-5 px-10 text-lg text-white'> Actuellement disponible</p>
+      <p className=' bg-primary-light py-5 px-10 text-lg text-white'> Actuellement Disponible</p>
       <FaArrowDown className='bg-primary-dark text-white w-20 h-20 py-5'/>
       </div>
       
