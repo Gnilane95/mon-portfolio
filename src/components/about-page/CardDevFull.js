@@ -46,7 +46,7 @@ export default function CardRight() {
           possimus? Beatae aut sed nobis.
         </p>
       </div>
-      <div className=" px-44 space-y-16 md:space-y-0 md:px-5 pt-10 md:pt-7 md:flex md:justify-center md:gap-9 md:items-center">
+      <div className=" px-36 space-y-16 md:space-y-0 md:px-5 pt-10 md:pt-7 md:flex md:justify-center md:gap-9 md:items-center">
         {percentage.map((bar) => (
           <ProgressBars
             percentage={bar.percentage}

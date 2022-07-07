@@ -4,7 +4,7 @@ import "react-circular-progressbar/dist/styles.css";
 
 export default function ProgressBars({percentage, title}) {
   return (
-    <div style={{ width: 150, height: 150, }}>
+    <div style={{ width: 200, height: 200, }}>
       <CircularProgressbar
         className="font-black text-md md:grid md:grid-cols-2 "
         value={percentage}
