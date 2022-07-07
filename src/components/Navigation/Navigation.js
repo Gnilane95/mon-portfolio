@@ -15,11 +15,11 @@ export default function Navigation() {
         <button
           data-collapse-toggle="mobile-menu"
           type="button"
-          className="inline-flex items-center ml-72 text-lg text-primary-dark font-bold md:hidden  uppercase"
+          className="inline-flex items-center ml-72 text-lg text-primary-dark font-bold md:hidden hover:bg-gray-100 rounded-lg focus:outline-none focus:ring-2 uppercase"
           aria-controls="mobile-menu"
           aria-expanded="false"
         > menu
-          <span className="sr-only ">Menu</span>
+          <span className="sr-only ">Open main menu</span>
           <svg
             className="w-6 h-6"
             fill="currentColor"
