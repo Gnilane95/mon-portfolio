@@ -10,18 +10,20 @@ import {
 
 export default function CardLeft() {
   return (
-    <div className="">
-      <img
-        src="img/xsmith.jpg.pagespeed.ic.-fvXWI23nq.webp"
-        alt=""
-        className="md:w-96  relative "
-      />
-      <div className='md:hidden absolute bottom-0 left-16 flex'>
-      <p className=' bg-primary-light py-5 px-10 text-lg text-white'> Actuellement Disponible</p>
-      <FaArrowDown className='bg-primary-dark text-white w-20 h-20 py-5'/>
+    <div className="md:flex  lg:grid">
+      <div className=''>
+        <img
+          src="img/xsmith.jpg.pagespeed.ic.-fvXWI23nq.webp"
+          alt=""
+          className="md:w-auto lg:w-96  relative "
+        />
+        <div className='lg:hidden absolute bottom-0 left-16 flex'>
+          <p className=' bg-primary-light py-5 px-10 text-lg text-white'> Actuellement Disponible</p>
+          <FaArrowDown className='bg-primary-dark text-white w-20 h-20 py-5'/>
+        </div>
       </div>
       
-      <div className="bg-primary-dark  py-16 md:p-3 md:w-96">
+      <div className=" bg-primary-dark  py-16 md:p-3 md:w-auto lg:w-96">
         <p className="capitalize text-3xl md:text-xl font-semibold text-white  text-center">
           General information
         </p>

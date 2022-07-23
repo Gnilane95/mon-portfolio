@@ -15,7 +15,7 @@ export default function Navigation() {
         <button
           data-collapse-toggle="mobile-menu"
           type="button"
-          className="inline-flex items-center ml-72 text-lg text-primary-dark font-bold md:hidden hover:bg-gray-100 rounded-lg focus:outline-none focus:ring-2 uppercase"
+          className="inline-flex items-center ml-72 text-lg text-primary-dark font-bold lg:hidden hover:bg-gray-100 rounded-lg focus:outline-none focus:ring-2 uppercase"
           aria-controls="mobile-menu"
           aria-expanded="false"
         > menu
@@ -45,7 +45,7 @@ export default function Navigation() {
             ></path>
           </svg>
         </button>
-        <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
+        <div className="hidden w-full lg:block md:w-auto" id="mobile-menu">
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-0 font-light md:mt-0 md:text-md md:ml-20 ">
             <NavItems
               linkItem="/"
