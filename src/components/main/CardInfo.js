@@ -10,14 +10,14 @@ import {
 
 export default function CardLeft() {
   return (
-    <div className="md:flex  lg:grid mt-72 md:mt-0">
+    <div className="md:flex  lg:grid">
       <div className='relative'>
         <img
           src="img/xsmith.jpg.pagespeed.ic.-fvXWI23nq.webp"
           alt=""
           className="md:w-auto lg:w-96  relative "
         />
-        <div className='lg:hidden absolute bottom-10 left-16 flex'>
+        <div className='lg:hidden absolute bottom-5 left-16 flex'>
           <p className=' bg-primary-light py-5 px-10 text-lg text-white'> Actuellement Disponible</p>
           <FaArrowDown className='bg-primary-dark text-white w-20 h-20 py-5'/>
         </div>
