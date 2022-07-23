@@ -7,7 +7,7 @@ export default function NavItems({ linkItem, titleItem }) {
     <li>
       <Link
         to={linkItem}
-        className=" border-l border-l-accent-dark block py-4 pr-4 pl-3 md:px-5 text-white bg-primary-dark hover:bg-primary-light active:bg-primary-light"
+        className=" md:border-l border-l-accent-dark block md:py-4 py-3 pr-4 md:pl-3 pl-12 md:px-5 md:text-white text-primary-dark md:bg-primary-dark bg-white md:hover:bg-primary-light hover:text-primary-light"
         aria-current="page"
       >
         {titleItem}
