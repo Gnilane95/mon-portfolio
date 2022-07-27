@@ -12,7 +12,7 @@ export default function Navigation() {
 
   return (
     <nav className="">
-      <div className="flex justify-between md:justify-start md:flex my-7 md:mb-0 md:items-center md:mx-auto">
+      <div className="flex justify-between md:justify-start md:flex my-7 md:items-center md:mx-auto">
         <div className="flex items-center">
           <Link to="/" className="flex items-center ">
             <span className="text-3xl md:text-4xl text-primary-dark font-black">

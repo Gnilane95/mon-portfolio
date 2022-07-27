@@ -15,7 +15,7 @@ export default function CardLeft() {
         <img
           src="img/xsmith.jpg.pagespeed.ic.-fvXWI23nq.webp"
           alt=""
-          className="md:w-auto lg:w-96  relative "
+          className="md:w-auto lg:w-96"
         />
         <div className='lg:hidden absolute bottom-5 left-16 flex'>
           <p className=' bg-primary-light py-5 px-10 text-lg text-white'> Actuellement Disponible</p>
